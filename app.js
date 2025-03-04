@@ -17,8 +17,8 @@ app.get('/api', (req, res) => {
 
 // Start the server
 app.listen(port, () => {
-    console.log(`Server is running at http://localhost:${port}`);
+    console.log(`Server is running on http://localhost:${PORT}`);
 });
 app.get('/name', (req, res) => {
-    res.send('Hello my name is xxx yyyy');
+    res.send('Hello my name is Phoobet Srikamhaeng');
 });
